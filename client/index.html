@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<head>
+  <link href="style.css" rel="stylesheet">
+
+<style>
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  pointer-events: none;
+  font: 10px sans-serif;
+}
+
+</style>
+</head>
+
+
+<body>
+  <script src="bower_components/d3/d3.js"></script>
+
+  <svg width="960" height="600"></svg>
+
+  <div>
+    <h1>Game info:</h1>
+    <p id="pturn">Player <span id="turndisp">1</span> go!<p>
+      <div>
+          Player 1:
+          <p>Captured Stones: <span id="capscore1">0</span></p>
+          <p>Stones on board: <span id="boardscore1">0</span></p>
+      </div>
+      <div>
+          Player 2:
+          <p>Captured Stones: <span id="capscore2">0</span></p>
+          <p>Stones on board: <span id="boardscore2">0</span></p>
+      </div>
+
+  </div>
+
+<script src="js/makego.js"></script>
+
+</body>
+</html>
