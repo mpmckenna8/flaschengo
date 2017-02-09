@@ -1,0 +1,24 @@
+{
+  "name": "goflaschen",
+  "version": "1.0.0",
+  "description": "A thing to show people how to use flaschenode to make a litte web app that will make the flaschentashen change or just work in the browser without it.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpmckenna8/flaschengo.git"
+  },
+  "keywords": [
+    "flaschentashen",
+    "udp",
+    "websockets"
+  ],
+  "author": "mpmckenna8",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpmckenna8/flaschengo/issues"
+  },
+  "homepage": "https://github.com/mpmckenna8/flaschengo#readme"
+}
