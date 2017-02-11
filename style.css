@@ -1,0 +1,29 @@
+@-webkit-keyframes blink {
+   from { fill: green; }
+   to { fill: white; }
+  }
+ @-moz-keyframes blink {
+   from { fill: green; }
+   to { fill: white; }
+ }
+ @-ms-keyframes blink {
+   from { fill: green; }
+   to { fill: white; }
+ }
+ @-o-keyframes blink {
+   from { fill: green; }
+   to { fill: white; }
+ }
+ @keyframes blink {
+   from { fill: green; }
+   to { fill: white; }
+ }
+
+ .blink {
+    fill: green;
+    -webkit-animation: blink 2s infinite alternate ;
+    -moz-animation: blink 2s 3 alternate;
+    -ms-animation: blink 2s 3 alternate;
+    -o-animation: blink 2s 3 alternate;
+    animation: blink 2s infinite alternate ;
+ }
